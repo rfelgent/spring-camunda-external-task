@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>de.rfelgent.camunda</groupId>
+    <artifactId>spring-camunda-external-task-client-root</artifactId>
+    <name>Spring Camunda External Task Client - ROOT</name>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <description>Camunda external task client integrated in Spring's eco system</description>
+    <inceptionYear>2019</inceptionYear>
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>spring-client</module>
+    </modules>
+
+    <developers>
+        <developer>
+            <email>renefelgentraeger@gmail.com</email>
+            <name>Rene Felgentraeger</name>
+            <url>https://github.com/rfelgent</url>
+            <id>rfelgent</id>
+        </developer>
+    </developers>
+
+</project>

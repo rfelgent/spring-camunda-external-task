@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <name>Spring Camunda External Task Client - CLIENT</name>
+    <artifactId>spring-camunda-external-task-client</artifactId>
+    <packaging>jar</packaging>
+    <parent>
+        <groupId>de.rfelgent.camunda</groupId>
+        <artifactId>spring-camunda-external-task-client-root</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <camunda.external.task.client.version>1.1.1</camunda.external.task.client.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.camunda.bpm</groupId>
+            <artifactId>camunda-external-task-client</artifactId>
+            <version>${camunda.external.task.client.version}</version>
+        </dependency>
+    </dependencies>
+</project>
