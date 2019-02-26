@@ -3,5 +3,5 @@
 *.iml
 
 # Maven
-.mvn/
+maven-wrapper.jar
 target/
